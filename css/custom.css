@@ -1,0 +1,476 @@
+@font-face {
+  font-family: "BebasNeue;";
+  src: url("fonts/PTN77F-webfont.eot") format("eot"),
+  	   url("fonts/BebasNeueLight.otf") format("opentypefont"),
+       url("fonts/PTN77F-webfont.svg") format("svg"),
+       url("fonts/PTN77F-webfont.ttf") format("ttf"),
+       url("fonts/PTN77F-webfont.woff") format("woff");
+}
+body{
+	margin: 0px;
+    font-family: 'BebasNeue' , sans-serif;
+    margin-left: 165px;
+    margin-top: 36px;
+    
+}
+html{
+	background-image: url(img/rectangle-17.png);
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+button:hover {background-color: #3e8e41}
+.white-container{
+	background-color: white;
+    width: 1012px;
+    margin-top: -27px;
+
+}
+.nav-bar{
+	padding: 5px;
+}
+.nav-bar ul li{
+	margin-right: 64px;
+}
+.header ul li{
+	list-style: none;
+	display: inline;
+}
+.header{
+	display: flex;
+	margin-left: 50px;
+	margin-top: -11px;
+}
+/*#trailertab{
+	
+  font-family: BebasNeue;
+  
+  color: #ffffff;
+}
+#textstyle{
+	font-family: BebasNeue;
+  
+  color: #ffffff;
+	font-weight: normal;
+  font-color: #e74628;
+  margin-left:3px;
+}*/
+.main-header{
+	height:450px;
+	background-image: url('img/shutterstock-549173422.png');
+	background-repeat: no-repeat;
+}
+.big-header{
+	margin-top: 50px;
+}
+.center {
+ width: 750px;
+ margin: auto;
+}
+input{
+	margin-top: 13px;
+	margin-right: 140px ;
+	border-radius: 5px;
+	height: 30px;
+}
+.header-img{
+	float: left;
+	margin-left: 118px;
+}
+.header-two{
+	margin: auto;
+	width: 512px;
+}
+.header-two h4{
+  color: #4e8ab6;
+}
+.search-bar input{
+	background-image: url('img/search-icon.png');
+	background-repeat: no-repeat;
+    background-position: right;
+}
+.trailer{
+	display: flex;
+	margin-top: 42px;
+}
+.trailer2{
+	margin-left: 40px;
+}
+.trailer1 h4{
+ margin-top: 2px;
+}
+.trailer2 h4{
+ margin-top: 2px;
+}
+.motm{
+	margin-left: 57px;
+}
+.motm-header img {
+    margin-left: -57px;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    height: 25px;
+    margin-right: 20px;
+}
+.motm-header{
+	display: flex;
+	margin-top: 28px;
+
+}
+.motm-title{
+	    display: flex;
+}
+
+.motm-details{
+	display: flex;
+	
+}
+.motm-movie1{
+	font-size: 18px;
+}
+.motm-movie2{
+	font-size: 18px;
+	margin-left: 105px;
+}
+.motm-movie3{
+	font-size: 18px;
+	margin-left: 105px;
+}
+.motm-movie4{
+	font-size: 18px;
+	margin-left: 105px;
+}
+.motm-movie-title{
+	color:#4e8ab6;
+	border-bottom: 1px solid #4e8ab6;	
+}
+.other-container{
+	
+	display: flex;
+	/*margin-top: 47px;*/
+	padding-bottom: 97px;
+}
+.motd-details{
+	margin-top: 5px;
+    padding-top: 39px;
+    margin-left: 57px;
+}
+.firstImage{
+	position: relative;
+		top: 0;
+		left: 0;
+}
+.secondImage{
+	position: absolute;
+		top: 20px;
+		
+}
+.thirdImage{
+	position: absolute;
+		bottom: 20px;
+		
+}
+.number{
+	position: absolute;
+    top: 62px;
+    right: 132px;
+    font-size: 36px;
+    color: grey;
+}
+.hyphenShapeOne{
+	position: absolute;
+	top: 80px;
+    right: 40px;
+   
+}
+.hyphenShapeTwo{
+	position: absolute;
+	top: 80px;
+    left: 40px;
+}
+
+.textContentFirst{
+	position: absolute;
+	bottom: 70px;
+    left: 110px;
+  font-family: Roboto;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.textContentSecond{
+	position: absolute;
+	bottom: 50px;
+    left: 65px;
+    text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  color: #ffffff;
+}
+.motd-titles{
+	color:#4e8ab6;
+	font-size: 27px;
+}
+.motd-movie1{
+	margin-top:30px;
+}
+
+.motd-movie2{
+	margin-top: 55px;
+}
+.motd-movie3{
+	margin-top: 80px;
+}
+.card-movies{
+	display: flex;
+	margin-top: 60px;
+}
+.card-body{
+	background-color: #fafafa;
+    margin-top: -16px;
+    border-radius: 3%;
+    height: 200px;
+    width: 300px;
+}
+.card-content{
+	margin-left: 29px;
+    padding-top: 21px;
+}
+.card-two{
+	margin-left: 46px;
+}
+.card-titles{
+   color:#4e8ab6;
+}
+.news{
+	margin-top: 48px;
+    margin-left: 130px;
+}
+.news1{
+	margin-top: 25px;
+}
+.news-titles{
+   color:#4e8ab6;
+}
+.news2{
+	margin-top: 46px;
+}
+.news3{
+	margin-top: 33px;
+}
+
+@keyframes liked{
+    0%{
+        background-position: bottom;
+    }
+    20%{
+        background-position: bottom;
+    }
+    40%{
+        background-position: bottom;
+    }
+    50%{
+        background-position: bottom;
+    }
+    100%{
+        background-position: bottom;
+    }
+}
+.install{
+    display: flex;
+    justify-content: space-between;
+    width: 881px;
+}
+.bg-image{
+	background-image: url(img/rectangle-16.png);
+	height: 200px;
+	width: 200px;
+	
+}
+.install-header-image{
+	margin-top: 9px;
+    margin-left: 5;
+}
+.install-footer-image{
+	margin-top: 42px;
+    margin-left: 7px;
+}
+.install-step{
+	margin-top: 9;
+	margin-left: 43px
+}
+.step-number{
+	width: 18px;
+  height: 51px;
+  object-fit: contain;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+}
+.hypen-image{
+	margin-bottom: 15px
+}
+.install-text{
+    height: 0px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.install-next-arrow{
+	height: 15px;
+    margin-top: 87px;
+}
+.first-movie{
+	background-image: url(img/rectangle-16.png);
+	height: 325px;
+	width: 270px;
+}
+.first-movie-image{
+	height: 150px;
+    width: 267px;
+}
+.play-button{
+	height: 25px;
+    margin-left: 120px;
+    margin-top: -111px;
+}
+.feature-image{
+	height: 29px;
+    margin-top: -15px;
+}
+.feature-text{
+	
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: -19px;
+    margin-left: 10px;
+}
+.feature-desc{
+	font-size: 12px;
+    color: white;
+    font-family: Roboto;
+    margin-left: 28px;
+    margin-top: 20px;
+}
+.feature-movie-content{
+	    margin-left: 70px;
+    margin-top: -145px;
+    font-size: 12;
+    font-family: BebasNeue;
+    font-weight: bold;
+}
+.get-trailer-btn{
+	padding: 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #e64627;
+    border-width: 0px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 15px;
+}
+.feature-image-next-content{
+	margin-left: 60px;
+    width: 135px;
+    margin-top: -149px;
+}
+.first-movie-desc{
+	background-image: url(img/rectangle-14-copy-3.png);
+	height: 69px;
+    width: 270px;
+    margin-top: 82px;
+}
+.first-movie-desc-content{
+	text-transform: uppercase;
+    color: #1e212d;
+    font-size: 12px;
+    text-align: left;
+    /* margin-top: 12px; */
+    padding-top: 16px;
+    font-weight: 300;
+    margin-right: 1px;
+    /* padding-right: 0px; */
+    padding-left: 5px;
+
+}
+.movie-card{
+	display: flex;
+	width: 1
+}
+.movie-card1{
+	display: flex;
+	margin-top: 226px
+}
+.card-images{
+	margin-left:60px;
+	height:149px;
+	width:244px;
+}
+.movie-desc{
+  width: 266px;
+  height: 53px;
+  object-fit: contain;
+  opacity: 0.8;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 142px;
+  color: rgba(30, 33, 45, 0.8);
+}
+.footer-text{
+	width: 395px;
+  height: 55px;
+  object-fit: contain;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+.footerMain{
+	    justify-content: center;
+    display: flex;
+}
+.footer{
+	background-image: url(img/rectangle-14-copy-3.png);
+	height: 70px;
+	display: flex;
+    justify-content: center;
+}
+.main-content-text{
+	    /* margin-top: -4465px; */
+    color: white;
+    margin-top: -423px;
+    margin-left: 45px;
+    font-family: BebasNeue;
+    font-size: 25px;
+}
+.main-content-text-second{
+	color: white;
+    margin-left: 52px;
+    font-size: 12px;
+}
